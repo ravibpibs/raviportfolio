@@ -25,7 +25,7 @@ const Resume = ({ data }) => {
           </p>
           {
             work.description.map((d, i) => (
-              <p style={{fontWeight : 800}} key={i}>► {d}</p>
+              <p style={{fontWeight : 800}} key={i}> <span>&bull;</span> {d}</p>
             ))
           }
           

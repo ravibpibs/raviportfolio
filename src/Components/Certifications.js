@@ -29,7 +29,7 @@ const Certifications = ({ data }) => {
         <section id="certificate">
             <div className="row">
                 <div className="twelve columns collapsed">
-                    <h1>COMPLETED THESES COURSE BY COURSERA AND UDEMY</h1>
+                <h1>Certifications from Coursera and Udemy</h1>
 
                     <div
                         id="certificate-wrapper"

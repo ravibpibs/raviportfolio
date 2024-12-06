@@ -17,7 +17,8 @@ const Contact = ({ data }) => {
     var contactMessage = data.contactmessage;
   }
 
-  const submitForm = () => {
+  const submitForm = (e) => {
+    e.preventDefault(); // Prevent default form submission behavior
     window.open(
       `mailto:${contactEmail}?subject=${encodeURIComponent(
         subject
@@ -51,7 +52,6 @@ const Contact = ({ data }) => {
                 </label>
                 <input
                   type="text"
-                  defaultValue=""
                   value={name}
                   size="35"
                   id="contactName"
@@ -66,7 +66,6 @@ const Contact = ({ data }) => {
                 </label>
                 <input
                   type="text"
-                  defaultValue=""
                   value={email}
                   size="35"
                   id="contactEmail"
@@ -79,7 +78,6 @@ const Contact = ({ data }) => {
                 <label htmlFor="contactSubject">Subject</label>
                 <input
                   type="text"
-                  defaultValue=""
                   value={subject}
                   size="35"
                   id="contactSubject"
@@ -93,17 +91,17 @@ const Contact = ({ data }) => {
                   Message <span className="required">*</span>
                 </label>
                 <textarea
-                  cols="50"
-                  rows="2"
+                  cols="30"
+                  rows="2"  // Ensure this is set to 3
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                   id="contactMessage"
                   name="contactMessage"
-                ></textarea>
+                />
               </div>
 
               <div>
-                <button onClick={submitForm} type="submit" className="submit">
+                <button type="submit" className="submit">
                   Submit
                 </button>
               </div>

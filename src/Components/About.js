@@ -7,7 +7,7 @@ const About = ({ data }) => {
     var bio = data.bio;
     var street = data.address.street;
     var city = data.address.city;
-    var state = data.address.state;
+  var state = data.address.state;
     var zip = data.address.zip;
     var phone = data.phone;
     var email = data.email;
@@ -17,15 +17,15 @@ const About = ({ data }) => {
   return (
     <section id="about">
       <div className="row">
-        <div className="three columns">
+        <div className="four columns">
           <img
             className="profile-pic"
             src={profilepic}
             alt="Sonny's Profile Pic"
-            style={{width: 220,height: 200}}
+            style={{width: "100%",height: "430px",objectFit:"fill"}}
           />
         </div>
-        <div className="nine columns main-col">
+        <div className="eight columns main-col">
           <h2>About Me</h2>
 
           <p>{bio}</p>
@@ -48,7 +48,7 @@ const About = ({ data }) => {
             </div>
             <div className="columns download">
               <p>
-                <a href={resumeDownload} className="button">
+                <a href={resumeDownload} target="blank" className="button">
                   <i className="fa fa-download"></i>Download Resume
                 </a>
               </p>

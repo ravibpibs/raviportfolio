@@ -1,16 +1,13 @@
-import React from "react";
-import TypeWriter from "react-typewriter";
+import { Typewriter } from "react-simple-typewriter";
 
 const Header = ({ data }) => {
   if (data) {
     var name = data.name;
-    var occupation = data.occupation;
     var description = data.description;
-    var state = data.address.state;
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} target="blank">
             <i className={network.className}></i>
           </a>
         </li>
@@ -54,7 +51,6 @@ const Header = ({ data }) => {
               Certifications
             </a>
           </li>
-          
           <li>
             <a className="smoothscroll" href="#contact">
               Contact
@@ -66,10 +62,17 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            <Typewriter
+              words={[`I'm ${name}.`]}
+              loop={false}
+              cursor
+              cursorStyle="|"
+              typeSpeed={100}
+              deleteSpeed={50}
+            />
           </h1>
           <h3>
-            Based in {state}. <span>{occupation}</span>. {description}.
+            {description}.
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

@@ -1,21 +1,19 @@
 {
   "main": {
     "name": "Ravi Ranjan Jha",
-    "occupation": "Software Developer",
-    "description": "I eat, sleep and breathe React",
+    "occupation": "Software Engineer (React.js)",
+    "description": "Hi! I'm passionate about crafting interactive, scalable, and high-performance web applications using React, Next.js, TypeScript, and JavaScript. I thrive on turning ideas into reality through clean code and intuitive designs.",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Ravi! I've been coding for over 2 years now. As a Front-End developer Currently I am working in startup Companies to help build & scale their Values.",
+    "bio": "I am a React.js and Next.js developer with 3 years of experience building scalable, high-performance web applications. Proficient in JavaScript, TypeScript, HTML, and CSS, I specialize in creating dynamic, user-friendly interfaces and robust application architectures. My expertise lies in delivering clean, maintainable code and innovative solutions to meet modern web development demands.",
     "contactmessage": "Get in touch with me",
     "email": "rjha4743@gmail.com",
     "phone": "+91 9971135107",
     "address": {
-      "street": "532/2A,Bank Colony",
       "city": "South Delhi",
-      "state": "Delhi",
-      "zip": "110062"
+      "state": "Delhi"
     },
     "website": "https://www.linkedin.com/in/ravi-ranjan-jha-7860231a2/",
-    "resumedownload": "https://drive.google.com/file/d/1uAvyjR5OfaNOAFC9YRchyu_-hWuBMgTa/view?usp=share_link",
+    "resumedownload": "https://drive.google.com/file/d/1ZfQzs5FTveMZzL-SVy_VlOq-cK7rvN2j/view?usp=drive_link",
     "social": [
       {
         "name": "linkedin",
@@ -35,34 +33,49 @@
     ]
   },
   "resume": {
-    "skillmessage": "My Programming Language Proficiency",
+    "skillmessage": "Technical Skills",
     "education": [
       {
         "school": "Bhai Parmanand Institute Of Business Studies",
         "degree": "Master Of Computer Application",
         "graduated": "June 2021",
-        "description": "Graduated with First Class Honours"
+        "description": "Graduated with 80%"
       },
       {
         "school": "Sikkim Manipal University",
         "degree": "Bachelor Of Computer Application",
         "graduated": "July 2017",
-        "description": "Graduated with First Class Honours"
+        "description": "Graduated with 60%"
       }
     ],
     "work": [
       {
-        "company": "Merkletree Technologies Pvt.Ltd,Noida",
-        "title": "Front-End Developer",
-        "years": "Nov 2021 - Present",
+        "company": "Kodehash Technologies Private Limited, Gurugram",
+        "title": "Software Engineer (React.js)",
+        "years": "Aug 2023 - Present",
         "description": [
-          "Worked on Redux-Tookit with TypeScript in Functional Based Component Project.",
-          "Used Formik Library to Handle Form and Yup for Form Validation.",
-          "Implement Tailwind Ui in NextJs Project to Make Web Application Responsive",
-          "Creating Reusable Components to Optimize Code and Speed of Web App",
-          "Managing UI Using HTML,CSS,JavaScript,Nextjs and reactjS.",
-          "Worked on Class Based Component using Redux to make Web Application",
-          "Implement Ant Design UI in Class Based Component"
+          "Developed and maintained scalable React.js applications using functional components, ensuring responsiveness and performance across devices.",
+          "Implemented state management using Redux Toolkit, enhancing application performance, maintainability, and scalability.",
+          "Integrated dynamic forms, including validation and custom form logic, along with a carousel stepper for a smooth and intuitive user experience.",
+          "Created reusable, modular components that improved code maintainability, reduced duplication, and optimized the speed of the web application.",
+          "Collaborated with cross-functional teams to design and implement new features based on user feedback and requirements.",
+          "Worked on improving app performance by optimizing rendering, lazy loading components, and managing application state efficiently.",
+          "Adopted best practices for clean code and consistent code reviews, contributing to the overall quality and maintainability of the codebase.",
+          "Leveraged modern React features like hooks, context API, and dynamic imports to create efficient, flexible solutions."
+        ]
+      },
+      {
+        "company": "Merkletree Technologies Pvt. Ltd, Noida",
+        "title": "Full Stack Developer",
+        "years": "Nov 2021 - May 2023",
+        "description": [
+          "Developed and maintained responsive web applications using React.js, Redux, and TypeScript in a functional component-based architecture.",
+          "Implemented state management with Redux Toolkit to enhance application scalability and performance.",
+          "Used Formik for form state management and integrated Yup for schema-based form validation to ensure data integrity and seamless user experience.",
+          "Integrated Tailwind UI into Next.js projects to create responsive and aesthetically pleasing designs, improving overall UI/UX.",
+          "Built and managed UI components using HTML, CSS, JavaScript, Next.js, and React.js, ensuring consistency and high performance.",
+          "Worked with class-based components, utilizing Redux for efficient state management and improving web application functionality.",
+          "Integrated Ant Design UI components in class-based React components to create visually appealing, user-friendly interfaces."
         ]
       }
     ],
@@ -70,37 +83,62 @@
       {
         "name": "ReactJs",
         "level": "100%",
-        "img" : "reactjs"
+        "img": "reactjs"
       },
       {
         "name": "NextJs",
         "level": "100%",
-        "img" : "nextjs"
+        "img": "nextjs"
       },
       {
         "name": "JavaScript & TypeScript",
         "level": "99%",
-        "img" : "javascript"
+        "img": "javascript"
       },
       {
         "name": "Redux Toolkit",
         "level": "100%",
-        "img" : "redux"
+        "img": "redux"
+      },
+      {
+        "name": "Node.js",
+        "level": "95%",
+        "img": "express"
+      },
+      {
+        "name": "Express Js",
+        "level": "95%",
+        "img": "express"
+      },
+      {
+        "name": "MongoDB",
+        "level": "95%",
+        "img": "express"
       },
       {
         "name": "Python",
         "level": "85%",
-        "img" : "python"
+        "img": "python"
       },
       {
-        "name": "Express Js",
-        "level": "80%",
-        "img" : "express"
-      },
-      {
-        "name": "Tailwind Css",
+        "name": "HTML",
         "level": "100%",
-        "img" : "tailwind"
+        "img": "tailwind"
+      },
+      {
+        "name": "CSS",
+        "level": "100%",
+        "img": "tailwind"
+      },
+      {
+        "name": "Tailwind Css & Bootstrap",
+        "level": "100%",
+        "img": "tailwind"
+      },
+      {
+        "name": "Material-UI & Ant Design",
+        "level": "100%",
+        "img": "tailwind"
       }
     ]
   },

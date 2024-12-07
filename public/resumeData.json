@@ -57,6 +57,7 @@
           "Developed and maintained scalable React.js applications using functional components, ensuring responsiveness and performance across devices.",
           "Implemented state management using Redux Toolkit, enhancing application performance, maintainability, and scalability.",
           "Integrated dynamic forms, including validation and custom form logic, along with a carousel stepper for a smooth and intuitive user experience.",
+          "Designed and implemented custom React hooks to simplify complex logic and improve code reusability.",
           "Created reusable, modular components that improved code maintainability, reduced duplication, and optimized the speed of the web application.",
           "Collaborated with cross-functional teams to design and implement new features based on user feedback and requirements.",
           "Worked on improving app performance by optimizing rendering, lazy loading components, and managing application state efficiently.",
@@ -145,16 +146,54 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Team Todo App",
-        "category": "",
-        "image": "ravitodo.jpg",
-        "url": "https://rrjtodo.vercel.app"
+        "title": "Water Link (Trading Platform)",
+        "description": "A trading platform for metal scrap and minerals/ores. It features an admin section with an enquiry module, job section, and shipping module for detailed information about products, jobs, and shipping details.",
+        "skills": [
+          "React.js",
+          "JavaScript",
+          "Redux Toolkit",
+          "Tailwind CSS"
+        ],
+        "image": "waterlink.jpg"
       },
       {
-        "title": "Snapshot Image Finder",
-        "category": "",
-        "image": "snapshot.jpg",
-        "url": "https://rrjsnapshot.netlify.app"
+        "title": "EdMused LMS",
+        "description": "A comprehensive Learning Management System designed to support dynamic, customizable training solutions. The platform enables the creation of levels, activities, and sub-activities, along with the upload of video content. During video sessions, learners engage with interactive quizzes and assignments, including multiple-choice questions (MCQs), fill-in-the-blanks, and true/false formats. The system also provides an admin panel for managing content and tracking progress, while learners can complete courses, participate in activities, and earn certificates upon successful completion.",
+        "skills": [
+          "React.js",
+          "Next.js",
+          "TypeScript",
+          "Redux",
+          "Tailwind CSS",
+          "JavaScript"
+        ],
+        "image": "edmused.jpg"
+      },
+      {
+        "title": "Bluenudge LMS",
+        "description": "Developed interactive panels for learners, clients, and coordinators in a Learning Management System, supporting course creation, level management, and user engagement. Enhanced accessibility and user experience using React.js, Next.js, and Tailwind CSS.",
+        "skills": [
+          "React.js",
+          "JavaScript",
+          "Redux",
+          "CSS",
+          "Tailwind CSS"
+        ],
+        "image": "bluenudge.jpg"
+      },
+      {
+        "title": "Eonmed – Digital Healthcare Solution",
+        "description": "A cutting-edge platform designed to make primary healthcare affordable and accessible for all without compromising quality. Eonmed allows patients to register and log in to consult doctors directly through video calls, facilitating seamless online consultations. The platform offers features such as online fee payments, downloadable prescriptions, and medication recommendations. This system integrates Eonmed’s vision of revolutionizing healthcare by combining traditional physical experiences with modern digital solutions. Leveraging advanced technologies, the platform is supported by a team of expert doctors proficient in addressing both physical ailments and contemporary issues like mental health. Eonmed’s phygital healthcare approach ensures a comprehensive and user-friendly experience, bridging the gap between traditional and digital medical care.",
+        "skills": [
+          "Next.js",
+          "React.js",
+          "TypeScript",
+          "Redux Toolkit",
+          "Formik",
+          "Yup",
+          "Tailwind CSS"
+        ],
+        "image": "eonmed.jpg"
       }
     ]
   },

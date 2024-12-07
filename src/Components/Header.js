@@ -63,16 +63,16 @@ const Header = ({ data }) => {
         <div className="banner-text">
           <h1 className="responsive-headline">
             <Typewriter
-              words={[`I'm ${name}.`]}
+              words={[`I'm ${name}`]}
               loop={false}
               cursor
-              cursorStyle="|"
+              cursorStyle=""
               typeSpeed={100}
               deleteSpeed={50}
             />
           </h1>
           <h3>
-            {description}.
+            {description}
           </h3>
           <hr />
           <ul className="social">{networks}</ul>

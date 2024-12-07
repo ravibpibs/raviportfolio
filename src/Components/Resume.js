@@ -12,7 +12,7 @@ const Resume = ({ data }) => {
         {education.degree} <span>&bull;</span>
         <em className="date">{education.graduated}</em>
       </p>
-      <p>{education.description}</p>
+      <p className="info">{education.description}</p>
     </div>
   ));
 
@@ -121,7 +121,7 @@ const Resume = ({ data }) => {
       <div className="row work">
         <div className="three columns header-col">
           <h1>
-            <span>Work</span>
+            <span>Work Experience</span>
           </h1>
         </div>
 

@@ -19,14 +19,27 @@ const Contact = ({ data }) => {
 
   const submitForm = (e) => {
     e.preventDefault(); // Prevent default form submission behavior
+    if (!name || !email || !message) {
+      alert("Please fill out all required fields.");
+      return;
+    }
+
+    // Open the mail client with the form data
     window.open(
-      `mailto:${contactEmail}?subject=${encodeURIComponent(
-        subject
-      )}&body=${encodeURIComponent(name)} (${encodeURIComponent(
-        email
-      )}): ${encodeURIComponent(message)}`
+      `mailto:${contactEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(name)} (${encodeURIComponent(email)}): ${encodeURIComponent(message)}`
     );
+
+    // Clear the form fields
+    setName("");
+    setEmail("");
+    setSubject("");
+    setMessage("");
+
+    // Show confirmation message to the user
+    alert("Your message is being sent...");
   };
+
+
 
   return (
     <section id="contact">
@@ -121,7 +134,10 @@ const Contact = ({ data }) => {
             <p className="address">
               {contactName}
               <br />
-              {contactEmail}
+              <span>
+                  <a style={{ color: 'inherit', textDecoration: 'none' }} href={`mailto:${contactEmail}`}>{contactEmail}</a>
+                </span>
+             
               <br />
               <br />
               {street} <br />

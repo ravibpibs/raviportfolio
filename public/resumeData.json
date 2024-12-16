@@ -13,7 +13,7 @@
       "state": "Delhi"
     },
     "website": "https://www.linkedin.com/in/ravi-ranjan-jha-7860231a2/",
-    "resumedownload": "https://drive.google.com/file/d/1ZfQzs5FTveMZzL-SVy_VlOq-cK7rvN2j/view?usp=drive_link",
+    "resumedownload": "https://drive.google.com/file/d/1ZiDP1ceBaRHDgpznnuHZ3TJeIK-4vS_G/view?usp=drive_link",
     "social": [
       {
         "name": "linkedin",
@@ -93,8 +93,13 @@
       },
       {
         "name": "JavaScript & TypeScript",
-        "level": "99%",
+        "level": "100%",
         "img": "javascript"
+      },
+      {
+        "name": "Redux",
+        "level": "100%",
+        "img": "redux"
       },
       {
         "name": "Redux Toolkit",

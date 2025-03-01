@@ -2,9 +2,9 @@
   "main": {
     "name": "Ravi Ranjan Jha",
     "occupation": "Software Engineer (React.js)",
-    "description": "Hi! I'm passionate about crafting interactive, scalable, and high-performance web applications using React, Next.js, TypeScript, and JavaScript. I thrive on turning ideas into reality through clean code and intuitive designs.",
+    "description": "Hi! I'm a React.js and Next.js developer with 3+ years of experience in building scalable and high-performance web applications. I specialize in JavaScript, TypeScript, and modern UI frameworks, crafting clean, user-friendly, and intuitive designs.",
     "image": "profilepic.jpg",
-    "bio": "I am a React.js and Next.js developer with 3 years of experience building scalable, high-performance web applications. Proficient in JavaScript, TypeScript, HTML, and CSS, I specialize in creating dynamic, user-friendly interfaces and robust application architectures. My expertise lies in delivering clean, maintainable code and innovative solutions to meet modern web development demands.",
+    "bio": "I am a React.js and Next.js developer with 3+ years of experience building scalable, high-performance web applications. Proficient in JavaScript, TypeScript, HTML, and CSS, I specialize in creating dynamic, user-friendly interfaces and robust application architectures. My expertise lies in delivering clean, maintainable code and innovative solutions to meet modern web development demands.",
     "contactmessage": "Get in touch with me",
     "email": "rjha4743@gmail.com",
     "phone": "+91 9971135107",
@@ -54,15 +54,16 @@
         "title": "Software Engineer (React.js)",
         "years": "Aug 2023 - Present",
         "description": [
-          "Developed and maintained scalable React.js applications using functional components, ensuring responsiveness and performance across devices.",
-          "Implemented state management using Redux Toolkit, enhancing application performance, maintainability, and scalability.",
-          "Integrated dynamic forms, including validation and custom form logic, along with a carousel stepper for a smooth and intuitive user experience.",
-          "Designed and implemented custom React hooks to simplify complex logic and improve code reusability.",
-          "Created reusable, modular components that improved code maintainability, reduced duplication, and optimized the speed of the web application.",
-          "Collaborated with cross-functional teams to design and implement new features based on user feedback and requirements.",
-          "Worked on improving app performance by optimizing rendering, lazy loading components, and managing application state efficiently.",
-          "Adopted best practices for clean code and consistent code reviews, contributing to the overall quality and maintainability of the codebase.",
-          "Leveraged modern React features like hooks, context API, and dynamic imports to create efficient, flexible solutions."
+          "Developed and optimized high-performance web applications using React.js, Next.js, and TypeScript, leveraging React Hooks for efficient code and faster renders.",
+          "Enhanced scalability and maintainability by implementing Redux Toolkit for seamless state management and reducing unnecessary re-renders.",
+          "Optimized front-end performance using lazy loading, code splitting, and memoization, reducing load times by up to 30%.",
+          "Implemented server-side rendering (SSR) and static site generation (SSG) in Next.js, improving SEO and user engagement, and reducing initial load time.",
+          "Led UI/UX improvements with Tailwind CSS and Material-UI, creating reusable, responsive components for mobile and desktop.",
+          "Developed robust RESTful APIs and integrated with the front-end using React and React Context for efficient state management.",
+          "Enhanced performance using useCallback, useMemo, and React.memo, reducing re-renders and optimizing expensive computations for a smoother user experience.",
+          "Tackled state synchronization and performance challenges using React Hooks (useState, useEffect, useMemo), ensuring optimal performance with large datasets.",
+          "Optimized rendering performance with react-window, implementing virtualized lists to efficiently handle large datasets and improve UI responsiveness.",
+          "Improved efficiency by implementing debouncing and throttling, reducing unnecessary API calls and enhancing overall performance."
         ]
       },
       {
@@ -161,7 +162,7 @@
           "Tailwind CSS"
         ],
         "image": "apexload.jpg",
-        "url" : "https://apexloads.com/"
+        "url": "https://apexloads.com/"
       },
       {
         "title": "Water Link (Trading Platform)",
@@ -173,7 +174,7 @@
           "Tailwind CSS"
         ],
         "image": "waterlink.jpg",
-        "url" : "http://operations.waterlink-trading.com"
+        "url": "http://operations.waterlink-trading.com"
       },
       {
         "title": "EdMused LMS",
@@ -187,7 +188,7 @@
           "JavaScript"
         ],
         "image": "edmused.jpg",
-        "url" : "https://edmused.ai/"
+        "url": "https://edmused.ai/"
       },
       {
         "title": "Bluenudge LMS",
@@ -200,7 +201,7 @@
           "Tailwind CSS"
         ],
         "image": "bluenudge.jpg",
-        "url" : "https://www.blue-nudge.com/home"
+        "url": "https://www.blue-nudge.com/home"
       },
       {
         "title": "Nederland Diagnostics",
@@ -213,7 +214,7 @@
           "Tailwind CSS"
         ],
         "image": "nederland.jpg",
-        "url" : "https://nederlandsdiagnostics.com/"
+        "url": "https://nederlandsdiagnostics.com/"
       },
       {
         "title": "Eonmed – Digital Healthcare Solution",
@@ -228,7 +229,7 @@
           "Tailwind CSS"
         ],
         "image": "eonmed.jpg",
-        "url":"https://eonmed.in/"
+        "url": "https://eonmed.in/"
       }
     ]
   },

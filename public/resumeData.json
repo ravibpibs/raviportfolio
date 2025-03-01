@@ -151,6 +151,19 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Apexload (TMS)",
+        "description": "Apexloads is a unified logistics platform revolutionizing Africa's transportation industry by integrating multiple functionalities into a single system. It combines a load board, Transportation Management System (TMS), Customer Relationship Manager (CRM), real-time shipment visibility, and invoice factoring services. ",
+        "skills": [
+          "React.js",
+          "JavaScript",
+          "TypeScript",
+          "Redux Toolkit",
+          "Tailwind CSS"
+        ],
+        "image": "apexload.jpg",
+        "url" : "https://apexloads.com/"
+      },
+      {
         "title": "Water Link (Trading Platform)",
         "description": "A trading platform for metal scrap and minerals/ores. It features an admin section with an enquiry module, job section, and shipping module for detailed information about products, jobs, and shipping details.",
         "skills": [
@@ -159,7 +172,8 @@
           "Redux Toolkit",
           "Tailwind CSS"
         ],
-        "image": "waterlink.jpg"
+        "image": "waterlink.jpg",
+        "url" : "http://operations.waterlink-trading.com"
       },
       {
         "title": "EdMused LMS",
@@ -172,7 +186,8 @@
           "Tailwind CSS",
           "JavaScript"
         ],
-        "image": "edmused.jpg"
+        "image": "edmused.jpg",
+        "url" : "https://edmused.ai/"
       },
       {
         "title": "Bluenudge LMS",
@@ -184,7 +199,21 @@
           "CSS",
           "Tailwind CSS"
         ],
-        "image": "bluenudge.jpg"
+        "image": "bluenudge.jpg",
+        "url" : "https://www.blue-nudge.com/home"
+      },
+      {
+        "title": "Nederland Diagnostics",
+        "description": "Nederland Diagnostics is a healthcare and diagnostics company focused on providing advanced, affordable diagnostic solutions in the Philippines. The company is known for its state-of-the-art laboratory facilities and efficient IT systems to ensure accurate and timely medical test results for patients and healthcare providers.",
+        "skills": [
+          "React.js",
+          "JavaScript",
+          "Redux",
+          "CSS",
+          "Tailwind CSS"
+        ],
+        "image": "nederland.jpg",
+        "url" : "https://nederlandsdiagnostics.com/"
       },
       {
         "title": "Eonmed – Digital Healthcare Solution",
@@ -198,7 +227,8 @@
           "Yup",
           "Tailwind CSS"
         ],
-        "image": "eonmed.jpg"
+        "image": "eonmed.jpg",
+        "url":"https://eonmed.in/"
       }
     ]
   },

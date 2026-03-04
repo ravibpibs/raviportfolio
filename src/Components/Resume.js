@@ -1,5 +1,4 @@
-import React from "react";
-import ReactApexChart from "react-apexcharts";
+
 
 const Resume = ({ data }) => {
   if (!data) return null; // Handle case when `data` is undefined or null
@@ -32,75 +31,24 @@ const Resume = ({ data }) => {
     </div>
   ));
 
-  // Prepare data for ReactApexChart
-  const options = {
-    chart: {
-      type: "bar",
-      height: 400,
-      toolbar: {
-        show: false,
-      },
-    },
-    grid: {
-      show: false, // Disable gridlines completely
-    },
-    plotOptions: {
-      bar: {
-        borderRadius: 8,
-        horizontal: true,
-      },
-    },
-    dataLabels: {
-      enabled: true,
-      formatter: function (val, opts) {
-        const index = opts.dataPointIndex;
-        return data.skills[index].level; // Show percentage value
-      },
-      style: {
-        fontSize: "14px",
-        colors: ["#333"],
-      },
-    },
-    xaxis: {
-      categories: data.skills.map((skill) => skill.name),
-      labels: {
-        style: {
-          fontSize: "12px",
-        },
-      },
-      
-    },
-    tooltip: {
-      enabled: true,
-      y: {
-        formatter: function (val, opts) {
-          return `${data.skills[opts.dataPointIndex].level}`;
-        },
-      },
-    },
-    fill: {
-      colors: ["#1E90FF"],
-    },
-    yaxis: {
-      max: 100, // Explicitly set the maximum to 100
-    },
+
+
+  const Skills = ({ skills }) => {
+    return (
+      <div className="skills-grid">
+        {skills.map((skill, index) => (
+          <div className="skill-card" key={index}>
+            <img
+              src={skill?.img}
+              alt={skill.name}
+              className="skill-icon"
+            />
+            <h4>{skill.name}</h4>
+          </div>
+        ))}
+      </div>
+    );
   };
-
-  const series = [
-    {
-      name: "Skill Level",
-      data: data.skills.map((skill) =>
-        parseInt(skill.level.replace("%", ""), 10)
-      ), // Convert percentage string to number
-    },
-  ];
-
-  // Skills Component
-  const Skills = () => (
-    <div>
-      <ReactApexChart options={options} series={series} type="bar" height={400} />
-    </div>
-  );
 
   return (
     <section id="resume">
@@ -127,8 +75,7 @@ const Resume = ({ data }) => {
 
         <div className="nine columns main-col">{work}</div>
       </div>
-
-      <div className="row skill">
+      <div className="row skill" id="skills">
         <div className="three columns header-col">
           <h1>
             <span>Skills</span>
@@ -137,10 +84,7 @@ const Resume = ({ data }) => {
 
         <div className="nine columns main-col">
           <p>{data.skillmessage}</p>
-
-          <div className="bars">
-            <Skills />
-          </div>
+          <Skills skills={data.skills} />
         </div>
       </div>
     </section>

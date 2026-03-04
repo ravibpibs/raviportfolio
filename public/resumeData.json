@@ -2,9 +2,9 @@
   "main": {
     "name": "Ravi Ranjan Jha",
     "occupation": "Software Engineer (React.js)",
-    "description": "Hi! I'm a React.js and Next.js developer with 3+ years of experience in building scalable and high-performance web applications. I specialize in JavaScript, TypeScript, and modern UI frameworks, crafting clean, user-friendly, and intuitive designs.",
+    "description": "React.js & Next.js Developer with 4 years of experience building scalable, high-performance web applications using TypeScript and modern frontend architecture.",
     "image": "profilepic.jpg",
-    "bio": "I am a React.js and Next.js developer with 3+ years of experience building scalable, high-performance web applications. Proficient in JavaScript, TypeScript, HTML, and CSS, I specialize in creating dynamic, user-friendly interfaces and robust application architectures. My expertise lies in delivering clean, maintainable code and innovative solutions to meet modern web development demands.",
+    "bio": "I am a React.js and Next.js developer with 4 years of experience building scalable, high-performance web applications. Proficient in JavaScript, TypeScript, HTML, and CSS, I specialize in creating dynamic, user-friendly interfaces and robust application architectures. I focus on delivering clean, maintainable code and innovative solutions to meet modern web development challenges.",
     "contactmessage": "Get in touch with me",
     "email": "rjha4743@gmail.com",
     "phone": "+91 9971135107",
@@ -13,7 +13,7 @@
       "state": "Delhi"
     },
     "website": "https://www.linkedin.com/in/ravi-ranjan-jha-7860231a2/",
-    "resumedownload": "https://drive.google.com/file/d/1CX2TJ8UmjhkbNIXsEBHOWEC9dNpoK_lI/view?usp=drive_link",
+    "resumedownload": "https://drive.google.com/file/d/1JxQfb_RD62DIKT-hYrMFCeW0QnI5le3n/view?usp=drive_link",
     "social": [
       {
         "name": "linkedin",
@@ -50,20 +50,29 @@
     ],
     "work": [
       {
+        "company": "Mobile Programming Private Limited, Gurugram",
+        "title": "Senior Software Developer (React.js)",
+        "years": "May 2025 - Present",
+        "description": [
+          "Contributed to the development of the Pulse Analytics Dashboard for Tata 1mg using React.js, Next.js, and TypeScript.",
+          "Designed dynamic chart configurations using Chart.js, enabling flexible X-axis plotting, multi-bar comparisons, and customizable line and bar charts.",
+          "Developed API-driven data transformation logic to dynamically render charts based on configurable datasets and user filters.",
+          "Integrated interactive visualizations including India map overlays and real-time analytics dashboards.",
+          "Optimized large dataset rendering using memoization, virtualization (react-window), and efficient state management with Redux Toolkit.",
+          "Implemented SSR and SSG in Next.js to improve performance, SEO, and initial load time."
+        ]
+      },
+      {
         "company": "Kodehash Technologies Private Limited, Gurugram",
         "title": "Software Engineer (React.js)",
-        "years": "Aug 2023 - Present",
+        "years": "Aug 2023 - May 2025",
         "description": [
-          "Developed and optimized high-performance web applications using React.js, Next.js, and TypeScript, leveraging React Hooks for efficient code and faster renders.",
-          "Enhanced scalability and maintainability by implementing Redux Toolkit for seamless state management and reducing unnecessary re-renders.",
-          "Optimized front-end performance using lazy loading, code splitting, and memoization, reducing load times by up to 30%.",
-          "Implemented server-side rendering (SSR) and static site generation (SSG) in Next.js, improving SEO and user engagement, and reducing initial load time.",
-          "Led UI/UX improvements with Tailwind CSS and Material-UI, creating reusable, responsive components for mobile and desktop.",
-          "Developed robust RESTful APIs and integrated with the front-end using React and React Context for efficient state management.",
-          "Enhanced performance using useCallback, useMemo, and React.memo, reducing re-renders and optimizing expensive computations for a smoother user experience.",
-          "Tackled state synchronization and performance challenges using React Hooks (useState, useEffect, useMemo), ensuring optimal performance with large datasets.",
-          "Optimized rendering performance with react-window, implementing virtualized lists to efficiently handle large datasets and improve UI responsiveness.",
-          "Improved efficiency by implementing debouncing and throttling, reducing unnecessary API calls and enhancing overall performance."
+          "Developed scalable and responsive web applications using React.js, Next.js, and TypeScript across multiple client projects.",
+          "Implemented Redux Toolkit to manage complex application state in multi-module architectures.",
+          "Built reusable and modular UI components using Tailwind CSS and Material-UI to ensure design consistency across platforms.",
+          "Optimized application performance through lazy loading, code splitting, and efficient component structuring.",
+          "Integrated RESTful APIs and handled dynamic data-driven rendering for real-time user interactions.",
+          "Collaborated closely with backend and design teams to deliver production-ready, maintainable web applications."
         ]
       },
       {
@@ -85,72 +94,81 @@
       {
         "name": "ReactJs",
         "level": "100%",
-        "img": "reactjs"
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
       },
       {
         "name": "NextJs",
         "level": "100%",
-        "img": "nextjs"
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
       },
       {
         "name": "JavaScript & TypeScript",
         "level": "100%",
-        "img": "javascript"
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
       },
       {
-        "name": "Redux",
+        "name": "Redux/Redux Toolkit",
         "level": "100%",
-        "img": "redux"
-      },
-      {
-        "name": "Redux Toolkit",
-        "level": "100%",
-        "img": "redux"
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
       },
       {
         "name": "Node.js",
         "level": "95%",
-        "img": "express"
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
       },
       {
         "name": "Express Js",
         "level": "95%",
-        "img": "express"
+        "img": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
       },
       {
         "name": "MongoDB",
         "level": "95%",
-        "img": "express"
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
       },
       {
         "name": "Python",
         "level": "85%",
-        "img": "python"
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
       },
       {
         "name": "HTML",
         "level": "100%",
-        "img": "tailwind"
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
       },
       {
         "name": "CSS",
         "level": "100%",
-        "img": "tailwind"
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
       },
       {
         "name": "Tailwind Css & Bootstrap",
         "level": "100%",
-        "img": "tailwind"
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
       },
       {
         "name": "Material-UI & Ant Design",
         "level": "100%",
-        "img": "tailwind"
+        "img": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg"
       }
     ]
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Pulse Dashboard by Tata 1mg",
+        "description": "Developed a healthcare analytics platform for Tata 1mg to provide real-time insights into patient and operational data. Built dynamic charts using Chart.js with configurable X-axis plotting, multi-bar and line charts, and India map integration. Optimized performance with React.js, Next.js, TypeScript, Redux Toolkit, SSR, and SSG for faster load times and improved SEO.",
+        "skills": [
+          "React.js",
+          "JavaScript",
+          "TypeScript",
+          "Zustand",
+          "Tailwind CSS",
+          "Chartjs"
+        ],
+        "image": "pulse.jpg",
+        "url": "https://pulse.1mg.com"
+      },
       {
         "title": "Apexload (TMS)",
         "description": "Apexloads is a unified logistics platform revolutionizing Africa's transportation industry by integrating multiple functionalities into a single system. It combines a load board, Transportation Management System (TMS), Customer Relationship Manager (CRM), real-time shipment visibility, and invoice factoring services. ",

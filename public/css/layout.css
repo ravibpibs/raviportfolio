@@ -35,7 +35,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header.png) no-repeat top center;
+   background: #161415 url(../images/background.png) no-repeat top center;
    background-size: cover !important;
    -webkit-background-size: cover !important;
    text-align: center;
@@ -369,6 +369,7 @@ ul#nav li.current a {
 /*	Skill Bars
 /*----------------------------------------------*/
 
+
 .bars {
    width: 95%;
    float: left;
@@ -411,6 +412,41 @@ ul#nav li.current a {
    height: 42px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
+}
+
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.skill-card {
+  background: #111827;
+  border-radius: 14px;
+  padding: 25px 15px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid #1f2937;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  border-color: #3b82f6;
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
+}
+
+.skill-icon {
+  width: 45px;
+  height: 45px;
+  margin-bottom: 12px;
+}
+
+.skill-card h4 {
+  color: #f9fafb;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 /*

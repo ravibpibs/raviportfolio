@@ -1,19 +1,19 @@
 import { Typewriter } from "react-simple-typewriter";
 
 const Header = ({ data }) => {
-  if (data) {
-    var name = data.name;
-    var description = data.description;
-    var networks = data.social.map(function (network) {
-      return (
-        <li key={network.name}>
-          <a href={network.url} target="blank">
-            <i className={network.className}></i>
-          </a>
-        </li>
-      );
-    });
-  }
+  const name = data?.name || 'Your Name';
+  const description = data?.description || '';
+  const social = Array.isArray(data?.social) ? data.social : [];
+
+  const networks = social.map(function (network) {
+    return (
+      <li key={network.name || network.url}>
+        <a href={network.url || '#'} target="_blank" rel="noopener noreferrer">
+          <i className={network.className || ''}></i>
+        </a>
+      </li>
+    );
+  });
 
   return (
     <header id="home">

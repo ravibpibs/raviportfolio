@@ -1,7 +1,9 @@
 
+import React from 'react';
+import './ResumeTimeline.css';
 
 const Resume = ({ data }) => {
-  if (!data) return null; // Handle case when `data` is undefined or null
+  if (!data) return null;
 
   // Process education data
   const education = data.education.map((education) => (
@@ -15,21 +17,37 @@ const Resume = ({ data }) => {
     </div>
   ));
 
-  // Process work data
-  const work = data.work.map((work) => (
-    <div className="work-wrapper" key={work.company}>
-      <h3>{work.company}</h3>
-      <p className="info">
-        {work.title}
-        <span>&bull;</span> <em className="date">{work.years}</em>
-      </p>
-      {work.description.map((desc, i) => (
-        <p className="desc" key={i}>
-          <span>&bull;</span> {desc}
-        </p>
+  // Timeline-style work items
+  const workTimeline = (
+    <div className="timeline">
+      {data.work.map((w, idx) => (
+        <div className="timeline-item" key={`${w.company}-${idx}`}>
+          <div className="timeline-marker">
+            <span className="marker-circle" />
+            <div className="marker-line" />
+            <div className="marker-date">{w.years}</div>
+          </div>
+          <div className="timeline-content">
+            <div className="timeline-card">
+              <div className="card-header">
+                <h3 className="company">{w.company}</h3>
+                <div className="title-meta">
+                  <span className="title">{w.title}</span>
+                </div>
+              </div>
+              <div className="card-body">
+                <ul>
+                  {w.description.map((d, i) => (
+                    <li key={i}>{d}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       ))}
     </div>
-  ));
+  );
 
 
 
@@ -73,7 +91,7 @@ const Resume = ({ data }) => {
           </h1>
         </div>
 
-        <div className="nine columns main-col">{work}</div>
+        <div className="nine columns main-col">{workTimeline}</div>
       </div>
       <div className="row skill" id="skills">
         <div className="three columns header-col">

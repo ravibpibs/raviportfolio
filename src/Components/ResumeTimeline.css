@@ -1,0 +1,103 @@
+/* Timeline styles for Work Experience */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 8px 0;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr); /* marker column + flexible content column */
+  align-items: start;
+  gap: 18px;
+  width: 100%;
+}
+
+.timeline-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.marker-circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #0b3a66;
+  box-shadow: 0 4px 12px rgba(11,58,102,0.12);
+  margin-top: 6px;
+}
+
+.marker-line {
+  width: 2px;
+  background: linear-gradient(180deg, rgba(11,58,102,0.08), rgba(11,58,102,0.04));
+  flex: 1 1 auto;
+  margin-top: 6px;
+}
+
+.marker-date {
+  margin-top: 8px;
+  font-size: 0.875rem;
+  color: #55697a;
+  text-align: center;
+}
+
+.timeline-content {
+  display: block;
+  width: 100%;
+}
+
+.timeline-card {
+  background: linear-gradient(180deg,#ffffff,#fbfdff);
+  border-radius: 10px;
+  padding: 14px 16px;
+  box-shadow: 0 8px 20px rgba(10,30,60,0.06);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.timeline-card:hover { transform: translateY(-6px); box-shadow: 0 18px 40px rgba(10,30,60,0.09); }
+
+.card-header { display:flex; align-items:flex-start; gap:12px; }
+.card-header .title-meta { margin-left: auto; }
+.company { margin:0; color:#0b3a66; font-size:1.05rem; white-space:normal; overflow:visible; text-overflow:initial; }
+.title {color: #38607f;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  margin: 0;
+  display: block;padding-top: 3px; }
+.card-body { margin-top:8px; color:#25414f; }
+.card-body ul { margin:0; padding-left:20px; list-style: disc; }
+.card-body li { margin-bottom:8px; line-height:1.5; }
+
+@media (max-width: 880px) {
+  .timeline-item { grid-template-columns: 64px 1fr; align-items: stretch; }
+  .timeline-marker { width: 64px; min-width:64px; }
+  .marker-date { display:none; }
+}
+
+@media (max-width: 600px) {
+  /* Switch to stacked layout on small screens so cards take full width */
+  .timeline-item {
+    grid-template-columns: 1fr;
+    grid-template-areas: "marker" "content";
+    gap: 12px;
+  }
+  .timeline-marker {
+    grid-area: marker;
+    width: 100%;
+    min-width: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .marker-line { display: none; }
+  .marker-date { display: block; font-size: 0.85rem; }
+  .timeline-content { grid-area: content; width: 100%; }
+  .timeline-card { width: 100%; }
+}
+

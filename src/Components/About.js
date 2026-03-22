@@ -1,51 +1,49 @@
-import React from "react";
+import React from 'react';
+import './About.css';
 
 const About = ({ data }) => {
-  if (data) {
-    var name = data.name;
-    var profilepic = "images/" + data.image;
-    var bio = data.bio;
-    var phone = data.phone;
-    var email = data.email;
-    var resumeDownload = data.resumedownload;
-  }
+  const name = data?.name || 'Your Name';
+  const profilepic = data?.image ? `images/${data.image}` : 'images/profile-placeholder.png';
+  const bio = data?.bio || '';
+  const phone = data?.phone || '';
+  const email = data?.email || '';
+  const resumeDownload = data?.resumedownload || '#';
 
   return (
-    <section id="about">
-      <div className="row">
-        <div className="four columns">
-          <img
-            className="profile-pic"
-            src={profilepic}
-            alt="Sonny's Profile Pic"
-            style={{ width: "100%", height: "430px", objectFit: "fill" }}
-          />
+    <section id="about" className="about-section">
+      <div className="about-inner">
+        <div className="about-left">
+          <div className="profile-frame">
+            <img className="profile-pic" src={profilepic} alt={`${name} profile`} />
+          </div>
         </div>
-        <div className="eight columns main-col">
+
+        <div className="about-right">
           <h2>About Me</h2>
+          <p className="about-bio">{bio}</p>
 
-          <p>{bio}</p>
-          <div className="row">
-            <div className="columns contact-details">
-              <h2>Contact Details</h2>
+          <div className="about-cta">
+            <div className="contact">
+              <h4>Contact</h4>
               <p className="address">
-                <span>{name}</span>
+                <strong>{name}</strong>
                 <br />
-
-                <span>{phone}</span>
-                <br />
-                <span>
-                  <a style={{ color: 'inherit', textDecoration: 'none' }} href={`mailto:${email}`}>{email}</a>
-                </span>
-
+                {phone && <span>{phone}<br /></span>}
+                {email && (
+                  <span>
+                    <a href={`mailto:${email}`}>{email}</a>
+                  </span>
+                )}
               </p>
             </div>
-            <div className="columns download">
-              <p>
-                <a href={resumeDownload} target="blank" className="button">
-                  <i className="fa fa-download"></i>Download Resume
-                </a>
-              </p>
+
+            <div className="actions">
+              <a href={resumeDownload} target="_blank" rel="noopener noreferrer" className="button primary">
+                <i className="fa fa-download" /> Download Resume
+              </a>
+              <a href="#contact" className="button outline">
+                Contact Me
+              </a>
             </div>
           </div>
         </div>

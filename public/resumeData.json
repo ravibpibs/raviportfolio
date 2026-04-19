@@ -4,7 +4,7 @@
     "occupation": "Software Engineer (React.js)",
     "description": "React.js & Next.js Developer with 4+ years of experience building scalable, high-performance web applications using TypeScript and modern frontend architecture.",
     "image": "profilepic.jpg",
-    "bio": "I am a React.js and Next.js developer with 4+ years of experience building scalable, high-performance web applications. Proficient in JavaScript, TypeScript, HTML, and CSS, I specialize in creating dynamic, user-friendly interfaces and robust application architectures. I focus on delivering clean, maintainable code and innovative solutions to meet modern web development challenges.",
+    "bio": "Frontend developer with 4+ years of experience building scalable and high-performance applications using React.js and Next.js. I specialize in creating maintainable architectures, optimizing rendering performance, and crafting seamless user experiences using TypeScript, SSR/SSG, and modern state management. I thrive on solving complex UI problems and delivering production-ready solutions.",
     "contactmessage": "Get in touch with me",
     "email": "rjha4743@gmail.com",
     "phone": "+91 9971135107",
@@ -166,8 +166,24 @@
           "Tailwind CSS",
           "Chartjs"
         ],
+        "category": "Web App",
         "image": "pulse.jpg",
         "url": "https://pulse.1mg.com"
+      },
+      {
+        "title": "Teldrip",
+        "description": "Built a scalable sales engagement platform enabling automated multi-channel outreach via email, calls, and SMS using configurable drip campaigns. Developed intuitive campaign builders, lead management dashboards, and activity tracking systems. Improved performance and SEO using Next.js SSR/SSG, and ensured efficient state handling with Redux Toolkit. Enhanced user experience with optimized rendering, reusable components, and responsive UI design.",
+        "skills": [
+          "Next.js",
+          "TypeScript",
+          "SSR",
+          "SSG",
+          "ISR",
+          "Tailwind CSS"
+        ],
+        "category": "Web App",
+        "image": "teldrip.png",
+        "url": "https://teldrip.com"
       },
       {
         "title": "Apexload (TMS)",
@@ -179,6 +195,7 @@
           "Redux Toolkit",
           "Tailwind CSS"
         ],
+        "category": "Web App",
         "image": "apexload.jpg",
         "url": "https://apexloads.com/"
       },
@@ -191,6 +208,7 @@
           "Redux Toolkit",
           "Tailwind CSS"
         ],
+        "category": "Web App",
         "image": "waterlink.jpg",
         "url": "http://operations.waterlink-trading.com"
       },
@@ -205,6 +223,7 @@
           "Tailwind CSS",
           "JavaScript"
         ],
+        "category": "Web App",
         "image": "edmused.jpg",
         "url": "https://edmused.ai/"
       },
@@ -218,6 +237,7 @@
           "CSS",
           "Tailwind CSS"
         ],
+        "category": "Web App",
         "image": "bluenudge.jpg",
         "url": "https://www.blue-nudge.com/home"
       },
@@ -231,6 +251,7 @@
           "CSS",
           "Tailwind CSS"
         ],
+        "category": "Web App",
         "image": "nederland.jpg",
         "url": "https://nederlandsdiagnostics.com/"
       },
@@ -246,6 +267,7 @@
           "Yup",
           "Tailwind CSS"
         ],
+        "category": "Web App",
         "image": "eonmed.jpg",
         "url": "https://eonmed.in/"
       }

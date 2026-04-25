@@ -2,9 +2,9 @@
   "main": {
     "name": "Ravi Ranjan Jha",
     "occupation": "Software Engineer (React.js)",
-    "description": "React.js & Next.js Developer with 4+ years of experience building scalable, high-performance web applications using TypeScript and modern frontend architecture.",
+    "description": "React.js & Next.js Developer with 5+ years of experience building scalable, high-performance web applications using TypeScript and modern frontend architecture.",
     "image": "profilepic.jpg",
-    "bio": "Frontend developer with 4+ years of experience building scalable and high-performance applications using React.js and Next.js. I specialize in creating maintainable architectures, optimizing rendering performance, and crafting seamless user experiences using TypeScript, SSR/SSG, and modern state management. I thrive on solving complex UI problems and delivering production-ready solutions.",
+    "bio": "Frontend developer with 5+ years of experience building scalable and high-performance applications using React.js and Next.js. I specialize in creating maintainable architectures, optimizing rendering performance, and crafting seamless user experiences using TypeScript, SSR/SSG, and modern state management. I thrive on solving complex UI problems and delivering production-ready solutions.",
     "contactmessage": "Get in touch with me",
     "email": "rjha4743@gmail.com",
     "phone": "+91 9971135107",
@@ -78,7 +78,7 @@
       {
         "company": "Merkletree Technologies Pvt. Ltd, Noida",
         "title": "Full Stack Developer",
-        "years": "Nov 2021 - May 2023",
+        "years": "Nov 2020 - May 2023",
         "description": [
           "Developed and maintained responsive web applications using React.js, Redux, and TypeScript in a functional component-based architecture.",
           "Implemented state management with Redux Toolkit to enhance application scalability and performance.",
